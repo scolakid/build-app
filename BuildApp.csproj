@@ -10,7 +10,7 @@
     <Message Text="XFiles item type contains @(XFiles)"></Message>   
     <Message Text="Compile item type contains @(Compile, '%0A%0D')"/>
     <Message Text="Compile.DependentUpon: %(Compile.DependentUpon)" />
-    <Message Text="Compile Filename: %(Compile.Filename)"></Message>
+    <!--<Message Text="Compile Filename: %(Compile.Filename)"></Message>-->
   </Target>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
